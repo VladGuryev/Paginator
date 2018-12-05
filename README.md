@@ -8,3 +8,6 @@ The Paginator<Iterator> contains the vector of Page<Iterator>. Of course, there 
 no any copying, work only with iterators. It should be noted that the C++14 standard was used 
 therefore there is no auto in return types of methods due to impossibility of my C++14 compiler
 to deduce types from initializer list. 
+Every method of the template class is covered with tests located in main.cpp using test framework ("test_runner.h")
+This is the coursera task located in: https://www.coursera.org/learn/c-plus-plus-red/programming/Iuewd/shablon-paginator
+
